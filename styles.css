@@ -1,0 +1,62 @@
+body {
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topbar {
+    width: calc(100%-40px);
+    height: 80px;
+    background-color: orangered;
+    }
+
+.topbar-tombol {
+    margin-top: 28px;
+    margin-right: 20px;
+}
+
+.topbar-search {
+    float: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.logo {
+    font-size: 15pt;
+}
+
+
+.topbarbutton{
+    background-color: crimson; 
+    color: aliceblue; 
+    border-radius: 4px ; 
+    padding: 15px;
+    font-size: 16pt;
+}
+
+.search {
+    font-size: 16pt;
+}
+
+.sanserif {
+    font-family: sans-serif;
+}
+
+.white {
+    background-color: white;
+}
+
+.judul{
+    border-radius: 5px;
+}
+
+.kiri {
+    float: left;
+}
+
+.kanan {
+    float: right;
+}
