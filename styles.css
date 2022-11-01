@@ -60,3 +60,22 @@ a {
 .kanan {
     float: right;
 }
+
+.top {
+    margin-top: 10px;
+    background-color: white;
+    border-top: 4px solid orangered;
+}
+
+.topweek {
+    color: orangered;
+    margin: 0;
+    top: 10;
+    position: absolute;
+}
+
+.slider {
+    height: 200px;
+    overflow: hidden;
+    float: left;
+}
