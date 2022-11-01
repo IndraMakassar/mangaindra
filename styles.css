@@ -56,13 +56,13 @@ a {
     font-size: 16pt;
 }        
 
-.top {
+.top-week {
     margin-top: 10px;
     background-color: white;
     border-top: 4px solid orangered;
 }
 
-.top h2 {
+.top-week h2 {
     color: orangered;
     margin: 0;
     top: 10;
@@ -78,4 +78,58 @@ a {
 
 .slider img {
     padding-left: 35px;
+}
+
+.latest-update {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60%;
+    padding-top: 0px;
+    margin-top: 230px;
+    border: 2px solid #dedede;
+}
+
+.latest-update h2 {
+    margin-top: 0;
+    font-size: 14pt; 
+    color: cornflowerblue; 
+    border-bottom: 2px solid #dedede;
+}
+
+.latest-update h3 {
+    margin-top: 4px;
+}
+
+.latest-update p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.latest-update-kiri {
+    width: 49%;
+    float: left;
+}
+
+.latest-update-kanan {
+
+    width: 49%;
+    float: right;
+}
+
+.latest-update-kotak {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white;
+    height: 144px;
+    float: left;
+}
+
+.latest-update-kotak-tulisan {
+    padding-left: 110px;
+}
+
+.latest-update img {
+    height: 144px;
+    float: left;
 }
