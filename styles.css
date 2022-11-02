@@ -55,10 +55,10 @@ a:hover {
 }
 
 .top-week h2 {
-    color: orangered;
     margin: 0;
     top: 10;
     position: absolute;
+    color: orangered;img
 }
 
 .slider {
