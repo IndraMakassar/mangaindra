@@ -245,3 +245,28 @@ a:hover {
     float: left;
     width: 30%;
 }
+
+.bottom-bar {
+    margin-top: 1680px;
+    border-top: 2px solid orangered;
+    width: 100%;
+    }
+
+.privacy {
+    padding-top: 5px;
+    float: left;
+    width: 34.5%;
+    height: 70px;
+}
+
+.about-us {
+    top: 0;
+    padding-top: 5px;
+    float: left;
+    width: 29%;
+}
+
+.about-us h2 {
+    line-height: 0%;
+    font-size: large;
+}
