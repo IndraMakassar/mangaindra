@@ -218,3 +218,30 @@ a:hover {
     margin-top: 5px;
     height: 100px;
 }
+
+.genres {
+    float: right;
+    overflow: hidden;
+    width: 29%;
+    background-color: white;
+    padding-top: 0px;
+    margin-top: 20px;
+    border-bottom: 2px solid #dedede;
+    border-left: 2px solid #dedede;
+    border-right: 2px solid #dedede;
+}
+
+.genres h2 {
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 14pt; 
+    color: aliceblue; 
+    background-color: orangered;
+    width: 125px;
+}
+
+.colomn {
+    padding-left: 10px;
+    float: left;
+    width: 30%;
+}
