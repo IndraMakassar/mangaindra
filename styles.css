@@ -247,12 +247,16 @@ a:hover {
 }
 
 .bottom-bar {
+    height: 110px;
+    background-color: white;
     margin-top: 1680px;
     border-top: 2px solid orangered;
     width: 100%;
     }
 
 .privacy {
+    margin-left: 10px;
+    margin-top: 3px;
     padding-top: 5px;
     float: left;
     width: 34.5%;
