@@ -22,7 +22,7 @@ a:hover {
     width: calc(100%-40px);
     height: 80px;
     background-color: orangered;
-    }
+}
 
 .topbar-tombol {
     float: right;
@@ -69,7 +69,36 @@ a:hover {
 }
 
 .slider img {
-    padding-left: 35px;
+    width: calc((100% / 8) - 4px);
+}
+
+.tulisantop {
+    overflow: hidden;
+    float: left;
+    margin-top: -50px;
+    width: 100%;
+    height: 50px;
+}
+.boxpict {
+    background-color: black;
+    opacity: 0.8;
+    width: calc((100% / 8) - 4px);
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 4px;
+    float: left;
+    height: 50px;
+    z-index: 1;
+}
+
+.boxpict p{
+    text-overflow: ellipsis;
+    color: aliceblue;
+    overflow: hidden;
+    line-height: 70%;
+    margin-top: 4px;
+    margin-left: 4px;
+    opacity: 1;
 }
 
 .latest-update {
